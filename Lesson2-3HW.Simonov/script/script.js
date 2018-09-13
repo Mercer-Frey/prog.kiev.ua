@@ -31,7 +31,7 @@ label2:while(price !== null && mem !== null){
     if (col === null) {
         break;
     };
-    for (var j = 0; j < color.length; i++) {
+    for (var j = 0; j < color.length; j++) {
         if(col === color[j].is){
             price = price + color[j].add;
             img = color[j].img; // Выбираем картинку
