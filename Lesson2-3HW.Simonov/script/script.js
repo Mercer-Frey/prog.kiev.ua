@@ -38,7 +38,7 @@ label2:while(price !== null && mem !== null){
             break label2;
         };
     };
-};
+}; 
 
 if(price && col) {
     document.write('<img src="img/'+img+'" style="width: 15%; display: block; margin: 0 auto;">');
