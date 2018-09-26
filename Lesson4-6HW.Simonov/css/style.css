@@ -44,25 +44,29 @@ body {
 .container .block-product .mayo{
 	height: 100%;
 	width: 25%;
-}
-.container .block-product .burger{
-
-}
-#burger{
-	height: 100%;
-	width: 50%;
-	background-repeat: no-repeat;
-	background-image: url(../img/cheese.png);
+	background-repeat: no-repeat;	
 	background-position: center center;
 	-webkit-background-size: 100% auto;
 	background-size: 100% auto;
 }
+.container .block-product #burger{
+	height: 100%;
+	width: 50%;
+	background-image: url(../img/cheese.png);
+	background-repeat: no-repeat;	
+	background-position: center center;
+	-webkit-background-size: 100% auto;
+	background-size: 100% auto;
+}
+
 .container .block-product .spice{
 	height: 100%;
 	width: 25%;
+	background-repeat: no-repeat;	
+	background-position: center center;
+	-webkit-background-size: 100% auto;
+	background-size: 100% auto;
 }
-
-
 
 
 .container .block-result{
