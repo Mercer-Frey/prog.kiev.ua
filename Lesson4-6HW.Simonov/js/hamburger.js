@@ -97,16 +97,6 @@ Hamburger.prototype.calculateCalories = function () {
 
 
 // маленький гамбургер с начинкой из сыра
-var hamburger = new Hamburger(Hamburger.SIZE_SMALL, Hamburger.STUFFING_CHEESE);
-hamburger.addTopping(Hamburger.TOPPING_MAYO);
-hamburger.addTopping(Hamburger.TOPPING_SPICE);
-hamburger.removeTopping(Hamburger.TOPPING_MAYO);
-hamburger.removeTopping(Hamburger.TOPPING_MAYO);
-console.log(hamburger.getToppings());
-console.log(hamburger.getSize());
-console.log(hamburger.getStuffing());
-console.log(hamburger.calculatePrice());
-console.log(hamburger.calculateCalories());
 // добавка из майонеза
 // hamburger.addTopping(Hamburger.TOPPING_MAYO);
 // спросим сколько там калорий

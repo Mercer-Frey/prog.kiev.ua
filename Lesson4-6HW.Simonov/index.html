@@ -2,20 +2,87 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible"
-          content="ie=edge">
-    <title>Lesson 5</title>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		  content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible"
+		  content="ie=edge">
+	<title>Lesson 5-6</title>
+	<link rel="stylesheet" href="css/style.css">
 </head>
+
 
 <body>
 
-<!--     <script src="hamburger.js"></script>
-    <script src="main.js"></script> -->
-    <!-- <script src="main2.js"></script> -->
-    <script src="hamburger.js"></script>
+	<div class="container">
+		<div class="block-product">
+			<div class="mayo" id="mayo"></div>
+			<!-- /.mayo -->
+			<div class="burger" id="burger"></div>
+			<!-- /.burger -->
+			<div class="spice" id="spice"></div>
+			<!-- /.spice -->
+		</div>
+		<!-- /.block-product -->
+		<div class="block-result">
+			<p class="price"></p>
+			<!-- /.price -->
+			<p class="cal"></p>
+			<!-- /.cal -->
+		</div>
+		<!-- /.block-result -->
+		<div class="block-menu">
+			<div class="size">
+				<div class="choose">
+					<input type="radio" name="size" value="Large" id="sizeLarge" onchange="" checked>
+					<label for="Large">Large</label>
+				</div>
+				<!-- choose -->
+				<div class="choose">
+					<input type="radio" name="size" value="Small" id="sizeSmall" onchange="">
+					<label for="Small">Small</label>
+				</div>
+				<!-- choose -->
+			</div>
+			<!-- /.size -->
+			<div class="stuff">
+				<div class="choose">
+					<input type="radio" name="stuff" value="Cheese" id="stuffCheese" onchange="checkBox2(this)" checked>
+					<label for="Cheese">Cheese</label>
+				</div>
+				<!-- choose -->
+				<div class="choose">
+					<input type="radio" name="stuff" value="Salad" id="stuffSalad" onchange="checkBox2(this)">
+					<label for="Salad">Salad</label>
+				</div>
+				<!-- choose -->
+				<div class="choose">
+					<input type="radio" name="stuff" value="Potato" id="stuffPotato" onchange="checkBox2(this)">
+					<label for="Potato">Potato</label>
+				</div>
+				<!-- choose -->
+			</div>
+			<!-- /.stuff -->
+			<div class="topping">
+				<div class="choose">
+					<input type="checkbox" name="topping" value="Mayonez" id="toppingMayonez" onchange="">
+					<label for="Mayonez">Mayonez</label>
+				</div>
+				<!-- choose -->
+				<div class="choose">
+					<input type="checkbox" name="topping" value="Spice" id="toppingSpice" onchange="">
+					<label for="Spice">Spice</label>
+				</div>
+				<!-- choose -->
+			</div>
+			<!-- /.topping -->
+		</div>
+		<!-- /.block-menu -->
+	</div>
+	<!-- /.container -->
+
+	<script src="js/hamburger.js"></script>
+	<script src="js/viewHamburger.js"></script>
 
 </body>
 
