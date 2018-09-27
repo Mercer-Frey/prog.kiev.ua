@@ -49,9 +49,13 @@ body {
 	-webkit-background-size: 100% auto;
 	background-size: 100% auto;
 }
-.container .block-product #burger{
+.container .block-product #burgerSize{
 	height: 100%;
 	width: 50%;
+} 	
+.container .block-product #burgerSize #burger{
+	height: 100%;
+	width: 100%;
 	background-image: url(../img/cheese.png);
 	background-repeat: no-repeat;	
 	background-position: center center;
