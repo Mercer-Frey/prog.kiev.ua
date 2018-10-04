@@ -59,8 +59,8 @@ body {
 	background-image: url(../img/cheese.png);
 	background-repeat: no-repeat;	
 	background-position: center center;
-	-webkit-background-size: 100% auto;
-	background-size: 100% auto;
+	-webkit-background-size: 85% auto;
+	background-size: 85% auto;
 }
 
 .container .block-product .spice{
