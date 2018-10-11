@@ -37,26 +37,25 @@ $('.slider__control').click(function () {
 })
 
 
-    function navigation(){
-        $('.slider__navigation').append('<div class="prev"><i class="fal fa-arrow-circle-left"></i></div>');
-        $('.slider__navigation').append('<div class="next"><i class="fal fa-arrow-circle-right"></i></div>');
-        $('.prev').click(function () {
-            currentImage--;
-            if (currentImage < 0) {
+function navigation(){
+    $('.slider__navigation').append('<div class="prev"><i class="fal fa-arrow-circle-left"></i></div>');
+    $('.slider__navigation').append('<div class="next"><i class="fal fa-arrow-circle-right"></i></div>');
+    $('.prev').click(function () {
+        currentImage--;
+        if (currentImage < 0) {
             currentImage = images.length - 1;
-            }
+        }
         setCurrentSlide();
-        });
+    });
         
-        $('.next').click(function () {
+    $('.next').click(function () {
         currentImage++;
-            if (currentImage > images.length - 1) {
+        if (currentImage > images.length - 1) {
             currentImage = 0;
-            }
-        setCurrentSlide();
-        });
-    };
-
+        }
+    setCurrentSlide();
+    });
+};
 navigation();
 
 // $('.accordion__control').click(function () {

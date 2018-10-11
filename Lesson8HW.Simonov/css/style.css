@@ -1,0 +1,82 @@
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+	background: radial-gradient(#4CCEB2, #2F8FD8);
+
+}
+
+.notes{
+	padding: 30px;
+	width: 30vw;
+	height: auto;
+	border: 1px solid;
+	border-radius: 10px 50px 10px 10px;
+	background: #F2C14E;
+	background: linear-gradient(to bottom right, #F2C14E, #F78154); /* Стандартный синтаксис */
+
+}
+
+.listItem{
+	border-bottom: 1px dashed;
+	display: flex
+}
+
+.notesNum{
+	margin-right: 10px;
+}
+.notes__item{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+button{
+	margin-left: auto;
+}
+.notes__adder-btn, .notes__search-btn{
+	color: #fff;
+	cursor: pointer;
+	border: 1px solid ;
+	width: auto;
+	text-align: center;
+	margin: 5px;
+	padding: 2px;
+	width: 38%;
+	float: left;
+	background-color: #444
+}
+.notes__search-btn{
+	float: right;
+}
+input{
+	width: 100%;
+}
+button{
+	color: #444;
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	background-color: rgb(214, 214, 214);
+	border: none;
+	cursor: pointer;
+}
+.remove:before, .remove:after{
+	content: '';
+	position: absolute;
+	width: 2px;
+	height: 10px;
+	background-color: #fff;
+}
+.remove:before{
+	top: 0;
+	left: 0;
+}
+.remove:after{
+	top: 0;
+	right: 0;
+}
